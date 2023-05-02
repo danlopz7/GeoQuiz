@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("RestrictedApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(TAG, "onCreate(Bundle? called")
+        //Log.d(TAG, "onCreate(Bundle? called")
         setContentView(R.layout.activity_main)
 
         Log.i(TAG, "onRestoreInstanceState")
